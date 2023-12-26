@@ -1,0 +1,107 @@
+body{
+    box-sizing: border-box;
+    background-color:#1a1a1a;
+    font-family: montserrat;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+form{
+    background-color: azure;
+    padding: 20px;
+    border-radius: 5px;
+    /* margin: 50px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: 5px solid orangered;
+    margin: 20px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 4px solid orangered;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+input::placeholder{
+    font-size: 20px;
+
+}
+
+.btn{
+    background-color: orangered;
+    font-size: 20px;
+    margin: 20px 0;
+    color: azure;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.btn:hover{
+    filter: brightness(0.8);
+}
+
+.score{
+    text-align: right;
+}
+ul{
+    display: flex; 
+    margin: px;
+    list-style-type: none;
+    text-decoration: none;
+    width: 80%;
+    /* border: 2px solid; */
+    padding: none;
+}
+li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-weight: 700;
+} 
+.fore-intro{
+    display: block;
+} 
+#intro{
+    color: azure;
+}
+@media  screen and (max-width:450px) {
+    form{
+        padding: 10px;
+        max-width: 80%;
+        max-height: fit-content;
+        
+
+    }
+    ul{
+       width: 100%; 
+        margin: right 5px;
+        max-width: fit-content;
+        
+    }
+
+    a{
+        font-size: 10px; 
+        font-weight: bolder;
+        box-sizing: border-box;    
+        
+    }
+    #twit{
+        margin-right: 30px;
+    }
+    .fore-intro{
+        font-size: 15px;
+    }
+}
